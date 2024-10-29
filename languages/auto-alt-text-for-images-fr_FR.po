@@ -1,0 +1,409 @@
+# Copyright (C) 2024 ForVoyez
+# This file is distributed under the same license as the Auto Alt Text for Images plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Alt Text for Images 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/auto-alt-text-for-images\n"
+"POT-Creation-Date: 2024-08-01T10:19:11+00:00\n"
+"PO-Revision-Date: 2024-08-01 16:55+0200\n"
+"Last-Translator: Cinquin Andy <contact@andy-cinquin.fr>\n"
+"Language-Team: ForVoyez <contact@forvoyez.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Domain: auto-alt-text-for-images\n"
+
+#. Plugin Name of the plugin
+#: includes/class-forvoyez-admin.php:45 templates/admin-page.php:2
+msgid "Auto Alt Text for Images"
+msgstr "Alt Automatique pour vos images"
+
+#. Plugin URI of the plugin
+msgid "https://doc.forvoyez.com/wordpress-plugin"
+msgstr "https://doc.forvoyez.com/wordpress-plugin"
+
+#. Description of the plugin
+msgid "Automatically generate alt text and SEO metadata for images using ForVoyez API."
+msgstr "Génère automatiquement du texte alternatif et des métadonnées SEO pour les images en utilisant l'API ForVoyez."
+
+#. Author of the plugin
+msgid "ForVoyez"
+msgstr "ForVoyez"
+
+#. Author URI of the plugin
+msgid "https://forvoyez.com"
+msgstr "https://forvoyez.com"
+
+#: includes/class-forvoyez-admin.php:46
+msgid "Auto Alt Text"
+msgstr "Texte Alt Auto"
+
+#: includes/class-forvoyez-admin.php:138
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette page."
+
+#: includes/class-forvoyez-admin.php:151
+msgid "Your ForVoyez API key is not configured. Please configure it to enable automatic alt text generation."
+msgstr "Votre clé API ForVoyez n'est pas configurée. Veuillez la configurer pour activer la génération automatique de texte alternatif."
+
+#: includes/class-forvoyez-admin.php:260
+msgid "No images found matching the selected criteria."
+msgstr "Aucune image trouvée correspondant aux critères sélectionnés."
+
+#: includes/class-forvoyez-admin.php:337 includes/class-forvoyez-admin.php:465
+#: includes/class-forvoyez-admin.php:521 includes/class-forvoyez-admin.php:544
+#: includes/class-forvoyez-image-processor.php:238
+#: includes/class-forvoyez-settings.php:55
+msgid "Permission denied"
+msgstr "Permission refusée"
+
+#: includes/class-forvoyez-admin.php:379
+msgid "&laquo; Previous"
+msgstr "&laquo; Précédent"
+
+#: includes/class-forvoyez-admin.php:393
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: includes/class-forvoyez-api-manager.php:59
+msgid "API key is not set"
+msgstr "La clé API n'est pas définie"
+
+#: includes/class-forvoyez-api-manager.php:76
+msgid "API key is valid"
+msgstr "La clé API est valide"
+
+#: includes/class-forvoyez-api-manager.php:78
+msgid "Invalid API key"
+msgstr "Clé API invalide"
+
+#: includes/class-forvoyez-api-manager.php:92
+msgid "Image not found"
+msgstr "Image non trouvée"
+
+#: includes/class-forvoyez-api-manager.php:101
+msgid "Failed to read image file"
+msgstr "Échec de la lecture du fichier image"
+
+#: includes/class-forvoyez-api-manager.php:144
+msgid "Failed to decode API response"
+msgstr "Échec du décodage de la réponse de l'API"
+
+#: includes/class-forvoyez-api-manager.php:166
+#: includes/class-forvoyez-image-processor.php:93
+msgid "Analysis successful"
+msgstr "Analyse réussie"
+
+#: includes/class-forvoyez-image-processor.php:51
+msgid "Invalid data"
+msgstr "Données invalides"
+
+#: includes/class-forvoyez-image-processor.php:56
+msgid "Metadata updated successfully"
+msgstr "Métadonnées mises à jour avec succès"
+
+#: includes/class-forvoyez-image-processor.php:86
+#: includes/class-forvoyez-image-processor.php:192
+msgid "Invalid image ID"
+msgstr "ID d'image invalide"
+
+#: includes/class-forvoyez-image-processor.php:99
+#: includes/class-forvoyez-image-processor.php:222
+msgid "unknown_error"
+msgstr "erreur_inconnue"
+
+#: includes/class-forvoyez-image-processor.php:176
+msgid "No valid images selected"
+msgstr "Aucune image valide sélectionnée"
+
+#: includes/class-forvoyez-image-processor.php:180
+msgid "Processing started"
+msgstr "Traitement commencé"
+
+#: includes/class-forvoyez-image-processor.php:206
+msgid "No images provided"
+msgstr "Aucune image fournie"
+
+#: includes/class-forvoyez-image-renderer.php:83
+msgid "Title:"
+msgstr "Titre :"
+
+#: includes/class-forvoyez-image-renderer.php:83
+#: includes/class-forvoyez-image-renderer.php:86
+#: includes/class-forvoyez-image-renderer.php:89
+msgid "Not set"
+msgstr "Non défini"
+
+#: includes/class-forvoyez-image-renderer.php:86
+msgid "Alt Text:"
+msgstr "Texte alternatif :"
+
+#: includes/class-forvoyez-image-renderer.php:89
+msgid "Caption:"
+msgstr "Légende :"
+
+#: includes/class-forvoyez-image-renderer.php:122 templates/admin-page.php:44
+msgid "All Complete"
+msgstr "Tout est complet"
+
+#: includes/class-forvoyez-image-renderer.php:141
+msgid "Missing %s"
+msgstr "%s manquant"
+
+#: includes/class-forvoyez-image-renderer.php:174
+msgid "Analyze"
+msgstr "Analyser"
+
+#: includes/class-forvoyez-image-renderer.php:175
+msgid "Details"
+msgstr "Détails"
+
+#: includes/class-forvoyez-settings.php:61
+msgid "API key cannot be empty"
+msgstr "La clé API ne peut pas être vide"
+
+#: includes/class-forvoyez-settings.php:67
+msgid "API key saved successfully"
+msgstr "Clé API enregistrée avec succès"
+
+#: includes/forvoyez-helpers.php:117
+msgid "Invalid API key format. Please enter a valid ForVoyez JWT."
+msgstr "Format de clé API invalide. Veuillez entrer un JWT ForVoyez valide."
+
+#: includes/forvoyez-helpers.php:136
+msgid "Invalid JWT format"
+msgstr "Format JWT invalide"
+
+#: includes/forvoyez-helpers.php:145
+msgid "Invalid JWT payload"
+msgstr "Charge utile JWT invalide"
+
+#: includes/forvoyez-helpers.php:150
+msgid "Invalid JWT issuer"
+msgstr "Émetteur JWT invalide"
+
+#: includes/forvoyez-helpers.php:155
+msgid "Invalid JWT audience"
+msgstr "Audience JWT invalide"
+
+#: includes/forvoyez-helpers.php:160
+msgid "JWT has expired"
+msgstr "Le JWT a expiré"
+
+#: templates/admin-page.php:6
+msgid "Legend :"
+msgstr "Légende :"
+
+#: templates/admin-page.php:11
+msgid "Missing Alt Text :"
+msgstr "Texte alternatif manquant :"
+
+#: templates/admin-page.php:13
+msgid "Missing Alt Text"
+msgstr "Texte alternatif manquant"
+
+#: templates/admin-page.php:21
+msgid "Missing title :"
+msgstr "Titre manquant :"
+
+#: templates/admin-page.php:23
+msgid "Missing Title"
+msgstr "Titre manquant"
+
+#: templates/admin-page.php:32
+msgid "Missing caption :"
+msgstr "Légende manquante :"
+
+#: templates/admin-page.php:34
+msgid "Missing Caption"
+msgstr "Légende manquante"
+
+#: templates/admin-page.php:42
+msgid "All complete :"
+msgstr "Tout est complet :"
+
+#: templates/admin-page.php:60
+msgid "Items per page:"
+msgstr "Éléments par page :"
+
+#: templates/admin-page.php:66
+msgid "All"
+msgstr "Tous"
+
+#: templates/admin-page.php:72
+msgid "Analyze all missing alt/caption/title images"
+msgstr "Analyser toutes les images avec alt/légende/titre manquant"
+
+#: templates/admin-page.php:75
+msgid "Analyze all missing alt images"
+msgstr "Analyser toutes les images avec alt manquant"
+
+#: templates/admin-page.php:78
+msgid "Analyze all images"
+msgstr "Analyser toutes les images"
+
+#: templates/admin-page.php:91
+msgid "Select All"
+msgstr "Tout sélectionner"
+
+#: templates/admin-page.php:94
+msgid "Analyze Selected Images"
+msgstr "Analyser les images sélectionnées"
+
+#: templates/admin-page.php:118
+msgid "Confirm Analysis"
+msgstr "Confirmer l'analyse"
+
+#: templates/admin-page.php:122
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: templates/admin-page.php:125
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/api-settings-modal.php:7
+msgid "ForVoyez API Settings"
+msgstr "Paramètres de l'API ForVoyez"
+
+#: templates/api-settings-modal.php:8
+msgid "Enter your ForVoyez API key below:"
+msgstr "Entrez votre clé API ForVoyez ci-dessous :"
+
+#: templates/api-settings-modal.php:11 templates/configuration-tab.php:35
+msgid "Toggle API key visibility"
+msgstr "Basculer la visibilité de la clé API"
+
+#: templates/api-settings-modal.php:21 templates/configuration-tab.php:45
+msgid "Save API Key"
+msgstr "Enregistrer la clé API"
+
+#: templates/api-settings-modal.php:24
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/configuration-tab.php:9
+msgid "API Configuration"
+msgstr "Configuration de l'API"
+
+#: templates/configuration-tab.php:10
+msgid "Manage your ForVoyez API settings here"
+msgstr "Gérez vos paramètres de l'API ForVoyez ici"
+
+#: templates/configuration-tab.php:14
+msgid "About ForVoyez API"
+msgstr "À propos de l'API ForVoyez"
+
+#: templates/configuration-tab.php:16
+msgid "ForVoyez API provides powerful image analysis capabilities for your WordPress site. To use this plugin, you need to obtain an API key from ForVoyez."
+msgstr "L'API ForVoyez fournit de puissantes capacités d'analyse d'images pour votre site WordPress. Pour utiliser ce plugin, vous devez obtenir une clé API auprès de ForVoyez."
+
+#: templates/configuration-tab.php:19
+msgid "To get started:"
+msgstr "Pour commencer :"
+
+#: templates/configuration-tab.php:22
+msgid "Visit the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">ForVoyez signup page</a> to create an account."
+msgstr "Visitez la <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">page d'inscription ForVoyez</a> pour créer un compte."
+
+#: templates/configuration-tab.php:23
+msgid "Once logged in, navigate to your <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">ForVoyez dashboard</a>."
+msgstr "Une fois connecté, accédez à votre <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">tableau de bord ForVoyez</a>."
+
+#: templates/configuration-tab.php:24
+msgid "Generate an API key in the API section of your dashboard."
+msgstr "Générez une clé API dans la section API de votre tableau de bord."
+
+#: templates/configuration-tab.php:25
+msgid "Copy the API key and paste it in the field below."
+msgstr "Copiez la clé API et collez-la dans le champ ci-dessous."
+
+#: templates/configuration-tab.php:28
+msgid "For more information, please refer to the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">ForVoyez API documentation</a>."
+msgstr "Pour plus d'informations, veuillez consulter la <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">documentation de l'API ForVoyez</a>."
+
+#: templates/configuration-tab.php:32
+msgid "API Key"
+msgstr "Clé API"
+
+#: templates/configuration-tab.php:34
+msgid "Enter your API key"
+msgstr "Entrez votre clé API"
+
+#: templates/dashboard-tab.php:4 templates/main-page.php:10
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: templates/dashboard-tab.php:5
+msgid "Overview of your Auto Alt Text for Images"
+msgstr "Aperçu du détail de vos metadata pour vos images"
+
+#: templates/dashboard-tab.php:10
+msgid "Total Images"
+msgstr "Total des images"
+
+#: templates/dashboard-tab.php:14
+msgid "Images Completed"
+msgstr "Images complétées"
+
+#: templates/dashboard-tab.php:18
+msgid "Images Without alt / caption"
+msgstr "Images sans alt / légende"
+
+#: templates/dashboard-tab.php:27
+msgid "Pre-requisites"
+msgstr "Prérequis"
+
+#: templates/dashboard-tab.php:28
+msgid "Make sure you have the following before you start:"
+msgstr "Assurez-vous d'avoir les éléments suivants avant de commencer :"
+
+#: templates/dashboard-tab.php:32
+msgid "Go to the 'Settings' tab"
+msgstr "Allez dans l'onglet 'Paramètres'"
+
+#: templates/dashboard-tab.php:33
+msgid "Enter your ForVoyez API key"
+msgstr "Entrez votre clé API ForVoyez"
+
+#: templates/dashboard-tab.php:34
+msgid "Click on 'Save API Key'"
+msgstr "Cliquez sur 'Enregistrer la clé API'"
+
+#: templates/dashboard-tab.php:40
+msgid "Quick Start"
+msgstr "Démarrage rapide"
+
+#: templates/dashboard-tab.php:41
+msgid "Follow these steps to generate alt text for your images:"
+msgstr "Suivez ces étapes pour générer du texte alternatif pour vos images :"
+
+#: templates/dashboard-tab.php:45
+msgid "Go to the 'Manage Images' tab"
+msgstr "Allez dans l'onglet 'Gérer les images'"
+
+#: templates/dashboard-tab.php:46
+msgid "Select the images you want to process"
+msgstr "Sélectionnez les images que vous voulez traiter"
+
+#: templates/dashboard-tab.php:47
+msgid "Click on 'Generate Alt Text' to start the process"
+msgstr "Cliquez sur 'Générer le texte alternatif' pour commencer le processus"
+
+#: templates/dashboard-tab.php:48
+msgid "Review and edit the generated alt text as needed"
+msgstr "Examinez et modifiez le texte alternatif généré si nécessaire"
+
+#: templates/main-page.php:8
+msgid "Tabs"
+msgstr "Onglets"
+
+#: templates/main-page.php:13
+msgid "Manage Images"
+msgstr "Gérer les images"
+
+#: templates/main-page.php:16
+msgid "Configuration"
+msgstr "Configuration"
